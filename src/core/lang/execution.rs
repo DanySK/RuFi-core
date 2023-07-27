@@ -153,7 +153,6 @@ mod test {
         assert_eq!(20, result.1);
     }
 
-    /*
     #[test]
     fn test_foldhood_failure() {
         // Is the same test as test_foldhood_advanced, but the device 4 is not aligned to FoldHood(0) / Nbr(0) and this cause the error
@@ -173,7 +172,6 @@ mod test {
         let result = round(init_with_ctx(context), program);
         assert_eq!(-4, result.1);
     }
-    */
 
     #[test]
     fn test_nbr() {
